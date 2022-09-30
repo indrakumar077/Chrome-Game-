@@ -2,84 +2,64 @@
     margin: 0;
     padding: 0;
 }
-
 #game{
-
     height: 300px;
     width: 600px;
     border: 2px solid black;
-    margin:3rem auto ;
+    margin: 3rem auto;
 }
-
 #block{
-   
-    height: 70px;
-    width: 40px;
-    background-color: black;
+    height: 50px;
+    width: 35px;
+    background-color: blue;
     position: relative;
-    top: 230px;
-    left:562px;
-    animation: move 1s linear infinite;
+    top: 250px;
+    left: 565px;
+    animation: move 1s linear  infinite;
 }
+#character{
+    height: 80px;
+    width: 40px;
+    /* background-color: red; */
+    position: relative;
+    top: 170px;
 
+}
+#character img{
+    height: 73px;
+    width: 70px;
+}
 @keyframes move {
-    
     0%{
-        left:560px;
+        left: 565px;
     }
     100%{
-        left:0px;
+        left: 0px;
     }
 }
-
-#dino{
-    position: relative;
-    top : 160px;
-    left: 0px
-}
-
-#dino img{
-    height: 70px;
-    width: 67px;
-
-}
-
-#result {
-
+#result{
     height: 200px;
     width: 400px;
-    background-color:  rgb(79, 87, 101);
+    background-color: cornflowerblue;
     margin: 3rem auto;
+    text-align: center;
     border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     display: none;
-
 }
-
 #score{
-
     font-size: 2.2rem;
     color: brown;
-
 }
-
-   
-
 #btn{
-
     padding: 0.5rem 1rem;
     border-radius: 20px;
     border: none;
     background-color: black;
-    color: rgb(65, 159, 159);
+    color: cyan;
     font-size: 25px;
     margin-top: 10px;
     cursor: pointer;
     text-transform: uppercase;
-
-
 }
 
 
